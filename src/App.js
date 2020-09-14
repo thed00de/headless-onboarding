@@ -11,7 +11,7 @@ class App extends Component {
 
 	componentDidMount() {
 		// Production
-		let dataURL = 'https://gitmaster.wpengine.com/wp-json/wp/v2/movies?_embed';
+		let dataURL = 'https://disneydidfine.wpengine.com/wp-json/wp/v2/movies?_embed';
 
 		fetch(dataURL)
 			.then((res) => res.json())
@@ -72,7 +72,7 @@ class App extends Component {
 						</li>
 						<li>
 							<a
-								href='http://gitmaster.wpengine.com/wp-json'
+								href='http://disneydidfine.wpengine.com/wp-json'
 								target='_blank'
 								rel='noopener noreferrer'
 							>

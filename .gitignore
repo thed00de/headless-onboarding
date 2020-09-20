@@ -1,5 +1,9 @@
 node_modules
 .next
 wpe.json
+.cache
+.wordpress-cache
+.env.GATSBY_CONCURRENT_DOWNLOAD
+WordPress
 
 # Add additional files/folders here:

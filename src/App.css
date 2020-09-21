@@ -1,94 +1,38 @@
-@font-face {
-	font-family: 'star_jedi_outlineregular';
-	src: url('../src/fonts/starjout-webfont.woff2') format('woff2'),
-		url('../src/fonts/starjout-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+.App {
+  text-align: center;
 }
 
-.container {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	margin: 20px;
-	padding: 20px;
-	border-bottom: red 10px solid;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.row-1 img {
-	width: 100%;
-	height: auto;
-}
-.row-2 {
-	flex-grow: 1;
-	margin: 40px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.site-title {
-	text-align: center;
-	font-size: 40px;
-	margin-bottom: 0;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+.App-link {
+  color: #61dafb;
 }
 
-li {
-	float: left;
-}
-
-li a {
-	color: red;
-	display: block;
-	padding: 8px;
-	text-decoration: none;
-	background-color: yellow;
-}
-
-.table {
-	display: table; /* Allow the centering to work */
-	margin: 0 auto;
-}
-
-html {
-	background-image: url('images/galaxy-stars-illustration.jpg');
-	background-attachment: fixed;
-}
-
-body {
-	padding: 20px;
-	background: rgba(0, 0, 0, 0.6);
-}
-
-p {
-	color: yellow;
-	font-size: 15px;
-}
-h2 {
-	color: #5ec3ed;
-	font-family: star_jedi_outlineregular;
-	letter-spacing: 2px;
-	border-bottom: 0;
-}
-
-.subheader {
-	text-align: center;
-	font-size: 20px;
-	color: yellow;
-	font-family: star_jedi_outlineregular;
-	letter-spacing: 2px;
-	margin: 0 0 20px 0;
-}
-
-@media only screen and (max-width: 960px) {
-	.container {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 10px;
-		padding: 10px;
-		border-bottom: red 5px solid;
-	}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

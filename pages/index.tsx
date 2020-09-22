@@ -1,6 +1,6 @@
-#const Home = () => <h1>Hello Headless!!</h1>;
+//const Home = () => <h1>Hello Headless!!</h1>;
 
-#export default Home;
+//export default Home;
 
 import React from "react"
 //import { graphql } from "gatsby"

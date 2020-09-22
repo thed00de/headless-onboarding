@@ -2,6 +2,20 @@
 You do not need to worry about .error {} colliding with any other `.css` or
 `.module.css` files!
 */
+
+@font-face {
+	font-family: 'star_jedi_outlineregular';
+	src: url('./fonts/starjout-webfont.woff2') format('woff2'),
+		url('./fonts/starjout-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.bg {
+  background-image: url('./images/galaxy-stars-illustration.jpg');
+  background-attachment: fixed;
+}
+
 .error {
   visibility: none;
   color: white;
@@ -13,10 +27,41 @@ You do not need to worry about .error {} colliding with any other `.css` or
   background-color: red;
 }
 
+.body h2 {
+  font-family: star_jedi_outlineregular;
+  color: #FFE81F;
+  text-align: center;
+}
+
+.body h4 {
+  font-family: star_jedi_outlineregular;
+  color: #FFE81F;
+  text-align: center;
+}
+
 .body {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
-  padding: 20px 20px 60px;
-  max-width: 680px;
+  background-color: #000;
+  color: white;
+  max-width: 960px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+.movie_poster {
+	border-bottom: red 10px solid;
+  padding: 20px 20px 60px;
+  margin: 0 auto;
+}
+
+.movie_poster p {
+  font-size: 12px;
+  font-height: .75;
+}
+
+.movie_poster img {
+  align: left;
+  float: left;
+  padding: 20px 20px 10px 0px
 }

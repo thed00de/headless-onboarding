@@ -1,7 +1,7 @@
 {
   "name": "taskbook-wpe-headless",
   "engines": {
-    "node": "12.18.0"
+    "node": "12.18.11"
   },
   "version": "0.1.0",
   "private": true,

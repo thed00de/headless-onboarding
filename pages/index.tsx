@@ -48,4 +48,4 @@ function Home({ movies }: InferGetStaticPropsType<typeof getStaticProps>) {
   )
 }
 
-export default Home
+export default Home;

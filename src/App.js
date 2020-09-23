@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-	  My Secoond Deployed App on WP Engine's Headless Platform!
+	  My Second Deployed App on WP Engine's Headless Platform!
         </p>
       </header>
     </div>

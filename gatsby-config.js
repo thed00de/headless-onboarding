@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Example`,
-    description: `Kick off your next, great Gatsby school webpage project with this starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@orzechdev`,
+    description: `Kick off your next, great Gatsby project with this starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@brettkrueger`,
     // must be defined as your domain and not left empty, used by gatsby-plugin-sitemap
     siteUrl: `https://krux.us/`,
   },

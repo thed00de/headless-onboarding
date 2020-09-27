@@ -1,9 +1,9 @@
 {
-  "name": "schoolfront",
+  "name": "Krux",
   "private": true,
-  "description": "An example school webpage starter to get up and developing quickly with Gatsby",
+  "description": "An example Gatsby site",
   "version": "0.1.0",
-  "author": "Dawid Tarasiuk",
+  "author": "Brett Krueger",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.19.45",
@@ -53,9 +53,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/orzechdev/schoolfront"
+    "url": "https://github.com/brettkrueger/headless-onboarding"
   },
   "bugs": {
-    "url": "https://github.com/orzechdev/schoolfront/issues"
+    "url": "https://github.com/brettkrueger/headless-onboarding/issues"
   }
 }

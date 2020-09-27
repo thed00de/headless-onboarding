@@ -25,11 +25,9 @@ const IndexPage: React.FC = () => (
     <SEO title="Home" />
     <MainSection>
       <MainTextWrapper>
-        <h1>Choose school you want to learn in</h1>
+        <h1>Example Gatsby Site</h1>
         <p>
-          Example school is blazingly modern school, which helps students to
-          succeed in their high aspiration tasks. Have you encountered any
-          school problem? Don't worry, we are going to help you in everything.
+	  This is a site made in Gatsby, hosted on the WP Engine headless platform.
         </p>
         <p>
           <Link to="/about/">Learn more</Link>
@@ -39,31 +37,6 @@ const IndexPage: React.FC = () => (
         <Image />
       </ImageWrapper>
     </MainSection>
-    <section>
-      <h2>Overview</h2>
-      <ul>
-        <li>
-          <Link to="/news/">News</Link>
-        </li>
-        <li>
-          <Link to="/education-offer/">Education offer</Link>
-        </li>
-        <li>
-          <Link to="/teaching-staff/">Teaching staff</Link>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>More</h2>
-      <ul>
-        <li>
-          <Link to="/open-hours/">Open hours</Link>
-        </li>
-        <li>
-          <Link to="/contact/">Contact</Link>
-        </li>
-      </ul>
-    </section>
   </Layout>
 )
 

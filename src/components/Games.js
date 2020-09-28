@@ -44,13 +44,6 @@ class Games extends Component {
 	}
 
   render() {
-    let audio = new Audio("/tick.mp3");
-
-    const start = () => {
-      console.log("playing")
-      audio.play()
-    }
-
     let games = this.state.games.map((game, index) => {
       return(
         <div className={index}>

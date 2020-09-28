@@ -54,7 +54,7 @@ class Games extends Component {
     let games = this.state.games.map((game, index) => {
       return(
         <div className={index}>
-          <a href="javascript:;" className="App-link game" onClick={this.showModal}>{game.title.rendered}</a>
+          <a href="javascript:;" className="App-link" onClick={this.showModal}>{game.title.rendered}</a>
           <br/>
           <Modal show={this.state.show} handleClose={this.hideModal} game={game} />
         </div>

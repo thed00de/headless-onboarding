@@ -8,6 +8,8 @@
   font-style: normal;
 }
 
+
+
 .App {
   text-align: center;
 }
@@ -15,6 +17,7 @@
 .App-logo {
   height: 5vmin;
   pointer-events: none;
+  margin-bottom: 15px;
 }
 /*
 @media (prefers-reduced-motion: no-preference) {
@@ -39,7 +42,6 @@
 .App-link {
   /*color: #61dafb;*/
   color: #fff;
-  font-family: "Halo";
   text-decoration: none;
   opacity: 80%;
 }
@@ -67,16 +69,35 @@
   width:100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
+  overflow-y: auto;
 }
 
 .modal-main {
   position:fixed;
   background: black;
-  width: 80%;
-  height: auto;
+  width: 60%;
+  max-height: 100vh;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
+  text-align: left;
+  font-size: calc(2px + 2vmin);
+  overflow-y: auto;
+}
+
+section {
+  position: relative;
+  overflow-y: auto;
+}
+
+.modal-main img {
+  float: left;
+  padding: 20px 20px 10px 0px;
+}
+
+.game-title {
+  font-family: "Halo";
+  position: sticky;
 }
 
 .display-block {

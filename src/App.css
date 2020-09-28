@@ -43,12 +43,12 @@
   /*color: #61dafb;*/
   color: #fff;
   text-decoration: none;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .App-link:hover {
   font-size: calc(11px + 2vmin);
-  opacity: 100%;
+  opacity: 1.0;
 }
 
 /*

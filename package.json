@@ -1,15 +1,21 @@
 {
-  "name": "learn-starter",
+  "name": "headless-next-blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "wpe-build": "next build"
   },
   "dependencies": {
+    "axios": "^0.20.0",
+    "date-fns": "^2.16.1",
+    "gray-matter": "^4.0.2",
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "remark": "^12.0.1",
+    "remark-html": "^12.0.0"
   }
 }

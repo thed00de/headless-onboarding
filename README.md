@@ -57,3 +57,4 @@ TBA
 
     Open the `my-school-starter` directory in your code editor of choice and edit `src/pages/index.tsx`. Save your changes and the browser will update in real time!
     
+    
